@@ -11,5 +11,8 @@ elif operacija == "/":
     rezultat = float(stevilo1) / float(stevilo2)
 elif operacija == "*":
     rezultat = float(stevilo1) * float(stevilo2)
+else:
+    rezultat_str = "Napačen vnos operacije."
+    rezultat = ""
 
 print(rezultat_str + str(rezultat))
